@@ -64,29 +64,29 @@ Make sure the following are installed:
 2. Create databases:
 
 # sql
-`CREATE DATABASE ems_auth;
-CREATE DATABASE ems_employee;
-CREATE DATABASE ems_task;`
+`CREATE DATABASE ems_auth;`
+`CREATE DATABASE ems_employee;`
+`CREATE DATABASE ems_task;`
 
 ---
 
 ### ▶️ How to Run the Project
 
 # 1. Run Auth Service
-`cd auth-service
-mvn spring-boot:run`
+`cd auth-service`
+`mvn spring-boot:run`
 
 # 2. Run Employee Service
-`cd employee-service
-mvn spring-boot:run`
+`cd employee-service`
+`mvn spring-boot:run`
 
 # 3. Run Task Service
-`cd task-service
-mvn spring-boot:run`
+`cd task-service`
+`mvn spring-boot:run`
 
 # 4. Run API Gateway
-`cd api-gateway
-mvn spring-boot:run`
+`cd api-gateway`
+`mvn spring-boot:run`
 
 ###  Access URLs
 `http://localhost:8085/signup.html`
